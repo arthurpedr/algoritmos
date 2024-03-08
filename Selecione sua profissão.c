@@ -2,34 +2,34 @@
 int main(){
 	int op;
 
-//Seleção de
- printf("Escolha uma opção abaixo.\n");
+//SeleÃ§Ã£o de
+ printf("Escolha uma opÃ§Ã£o abaixo.\n");
  printf("Autonomo.\n");
  printf("agricultor.\n");
  printf("auxiliar.\n");
  printf("arquiteto.\n");
  printf("advogado.\n");
- printf("Digite o número correspondente á sua escolha.\n");
+ printf("Digite o nÃºmero correspondente Ã¡ sua escolha.\n");
  scanf("%d", &op);
 
 switch(op){
 case 1:
-	 printf("Você escolheu Autonomo.\n");
-	 break;
+	printf("VocÃª escolheu Autonomo.\n");
+	break;
 case 2:
-	printf("Você escolheu agricultor.\n");
+	printf("VocÃª escolheu agricultor.\n");
 	break;
 case 3:
-    printf("Você escolheu auxiliar.\n");
-    break;
+  printf("VocÃª escolheu auxiliar.\n");
+  break;
 case 4:
-	printf("Você escolheu arquiteto.\n");
+	printf("VocÃª escolheu arquiteto.\n");
 	break;
 case 5:
-	printf("Você escolheu advogado.\n");
+	printf("VocÃª escolheu advogado.\n");
 	break;
 default:
-	printf("opção inválida. por favor, escolha um número de 1 a 5.\n");
+	printf("opÃ§Ã£o invÃ¡lida. por favor, escolha um nÃºmero de 1 a 5.\n");
 	break;
 
 } while(op < 1 || op > 5);
